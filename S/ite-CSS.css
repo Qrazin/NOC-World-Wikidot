@@ -1,9 +1,8 @@
-/* 
 @import url(https://github.backroomswiki.cn/Super_Liminal/css/super-liminal.css);
 :root {
     --header-title: "NOC";
     --header-subtitle: "当时空崩塌之时……";
-    --logo-image: url("https://tc.z.wiki/autoupload/ZNfozAik_vr7gX6J34WCBdiO_OyvX7mIgxFBfDMDErs/wikidot/nocworldcn-wiki/WikidotNOC--Wiki-img.png")
+    --logo-image: url("https://tc.z.wiki/autoupload/ZNfozAik_vr7gX6J34WCBdiO_OyvX7mIgxFBfDMDErs/wikidot/nocworldcn-wiki/WikidotNOC--Wiki-img.png");
     --link-color: 205, 205, 205;
     --hover-link-color: 0, 0, 0;
     --visited-link-color: 195, 195, 195;
@@ -39,24 +38,4 @@
     div.scpnet-interwiki-wrapper {
         width: 100%;
     }
-}
-*/
-@import url(https://github.backroomswiki.cn/Super_Liminal/css/super-liminal.css);
-
-:root{
-    --header-title: "NOC";
-    --header-subtitle: "当时空崩塌之时……";
-    --bb-white:var(--background-color);
-    --bb-black:var(--text-color);
-    --logo-image: url("https://lostmedia.wikidot.com/local--files/start/cn-logo-2.svg");
-
---link-color: 51, 152, 204;
---hover-link-color: 61, 172, 214;
---visited-link-color: 100, 100, 200;
---newpage-color: 50, 50, 220;
-}
-
-#side-bar .side-block.media a img {
-    position: relative;
-    transform: translateX(0);
 }
