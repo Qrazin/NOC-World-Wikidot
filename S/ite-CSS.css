@@ -8,3 +8,6 @@
     --visited-link-color: 195, 195, 195;
     --background-color: 255, 255, 255;
 }
+#navi-bar {
+    display: none !important;
+}
