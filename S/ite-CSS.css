@@ -1,0 +1,10 @@
+@import url(https://github.backroomswiki.cn/Super_Liminal/css/super-liminal.css);
+:root {
+    --header-title: "NOC";
+    --header-subtitle: "当时空崩塌之时……";
+    --logo-image: url("https://cy-pic.kuaizhan.com/g3/19/99/2d4c-2e82-42f2-a0a5-bab3fd2327f867?cysign=84ade3aeb5ec95be28cc66bba5ff660a&cyt=1750910144")
+    --link-color: 205, 205, 205;
+    --hover-link-color: 0, 0, 0;
+    --visited-link-color: 195, 195, 195;
+    --background-color: 255, 255, 255;
+}
