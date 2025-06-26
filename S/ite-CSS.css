@@ -2,7 +2,7 @@
 :root {
     --header-title: "NOC";
     --header-subtitle: "当时空崩塌之时……";
-    --logo-image: url("https://cy-pic.kuaizhan.com/g3/19/99/2d4c-2e82-42f2-a0a5-bab3fd2327f867?cysign=84ade3aeb5ec95be28cc66bba5ff660a&cyt=1750910144")
+    --logo-image: url("https://tc.z.wiki/autoupload/ZNfozAik_vr7gX6J34WCBdiO_OyvX7mIgxFBfDMDErs/wikidot/nocworldcn-wiki/WikidotNOC--Wiki-img.png")
     --link-color: 205, 205, 205;
     --hover-link-color: 0, 0, 0;
     --visited-link-color: 195, 195, 195;
@@ -10,4 +10,32 @@
 }
 #navi-bar {
     display: none !important;
+}
+/* 手机端兼容 */
+@media only screen and (max-width: 768px) {
+    #side-bar {
+        left: calc(var(--sidebar-width-on-mobile) * -1);
+    }
+    #side-bar:target, #skrollr-body:target #side-bar {
+        left: -0.5rem;
+    }
+    #side-bar .heading p,
+    #side-bar .side-block > .collapsible-block .collapsible-block-link {
+        letter-spacing: 0.016em;
+    }
+    #side-bar:target .close-menu, #skrollr-body:target #side-bar .close-menu {
+        margin-left: calc(var(--sidebar-width-on-mobile) - 0.5rem);
+        width: calc(100% - var(--sidebar-width-on-mobile) + 0.5rem);
+    }
+}
+@media only screen and (max-width: 768px) {
+    #side-bar div.scpnet-interwiki-wrapper {
+        width: calc(var(--sidebar-width-on-mobile) - 0.5rem);
+        max-width: calc(80vw + var(--base-font-size) * 0.5);
+    }
+}
+@media only screen and (min-width: 768px) {
+    div.scpnet-interwiki-wrapper {
+        width: 100%;
+    }
 }
